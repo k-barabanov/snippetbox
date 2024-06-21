@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1b1b829-1f0a-48da-b639-38ff9b198588" name="Changes" comment="add gitignore" />
+    <list default="true" id="b1b1b829-1f0a-48da-b639-38ff9b198588" name="Changes" comment="add gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/web/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/web/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/html/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/html/pages/home.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/style.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,23 +20,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$USER_HOME$/go/go1.22.4" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../go/go1.22.4" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/go/go1.22.4/src/fmt/print.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/go/go1.22.4/src/io/io.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/go/go1.22.4/src/net/http/request.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/go/go1.22.4/src/net/http/servemux121.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/go/go1.22.4/src/net/http/server.go" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/go/go1.22.4/src/net/http/status.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../go/go1.22.4/src/fmt/print.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../go/go1.22.4/src/io/io.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../go/go1.22.4/src/net/http/request.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../go/go1.22.4/src/net/http/servemux121.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../go/go1.22.4/src/net/http/server.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../go/go1.22.4/src/net/http/status.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -42,26 +49,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "/home/student/snippetbox",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/student/snippetbox&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ui/html/pages" />
+      <recent name="$PROJECT_DIR$/ui/html" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
