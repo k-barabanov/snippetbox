@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1b1b829-1f0a-48da-b639-38ff9b198588" name="Changes" comment="add gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/golinter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/golinter.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/web/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/css/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/js/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
